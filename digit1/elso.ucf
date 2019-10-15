@@ -1,0 +1,4 @@
+NET "a" LOC="G12" ;
+NET "b" LOC="C11" ;
+NET "y" LOC="M5" ;
+NET "z" LOC="M11" ;

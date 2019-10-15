@@ -1,0 +1,26 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/VHDL_munka/digit2/schematic_schematic_sch_tb_isim_beh.exe -prj C:/VHDL_munka/digit2/schematic_schematic_sch_tb_beh.prj work.schematic_schematic_sch_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/VHDL_munka/digit2/schematic.vf" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Parsing VHDL file "C:/VHDL_munka/digit2/test.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module glbl
+Compiling module OR2
+Compiling module AND2
+Compiling module schematic
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling package vl_types
+Compiling architecture behavioral of entity schematic_schematic_sch_tb
+Time Resolution for simulation is 1ps.
+Compiled 6 VHDL Units
+Compiled 4 Verilog Units
+Built simulation executable C:/VHDL_munka/digit2/schematic_schematic_sch_tb_isim_beh.exe
+Fuse Memory Usage: 49856 KB
+Fuse CPU Usage: 499 ms

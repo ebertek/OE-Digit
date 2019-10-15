@@ -1,0 +1,40 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : elso.vf
+// /___/   /\     Timestamp : 09/16/2019 20:37:34
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog C:/VHDL_munka/digit1/elso.vf -w C:/VHDL_munka/digit1/elso.sch
+//Design Name: elso
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module elso(a, 
+            b, 
+            y, 
+            z);
+
+    input a;
+    input b;
+   output y;
+   output z;
+   
+   
+   AND2  XLXI_5 (.I0(b), 
+                .I1(a), 
+                .O(y));
+   XOR2  XLXI_7 (.I0(b), 
+                .I1(a), 
+                .O(z));
+endmodule

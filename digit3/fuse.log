@@ -1,0 +1,31 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/VHDL_munka/digit3/digit3/schematic_schematic_sch_tb_isim_beh.exe -prj C:/VHDL_munka/digit3/digit3/schematic_schematic_sch_tb_beh.prj work.schematic_schematic_sch_tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/VHDL_munka/digit3/digit3/schematic.vhf" into library work
+Parsing VHDL file "C:/VHDL_munka/digit3/digit3/testb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling architecture xor3_v of entity XOR3 [xor3_default]
+Compiling architecture and2_v of entity AND2 [and2_default]
+Compiling architecture or3_v of entity OR3 [or3_default]
+Compiling architecture muxcy_l_v of entity MUXCY_L [muxcy_l_default]
+Compiling architecture muxcy_v of entity MUXCY [muxcy_default]
+Compiling architecture muxcy_d_v of entity MUXCY_D [muxcy_d_default]
+Compiling architecture xorcy_v of entity XORCY [xorcy_default]
+Compiling architecture fmap_v of entity FMAP [fmap_default]
+Compiling architecture xor2_v of entity XOR2 [xor2_default]
+Compiling architecture behavioral of entity ADD4_MXILINX_schematic [add4_mxilinx_schematic_default]
+Compiling architecture behavioral of entity schematic [schematic_default]
+Compiling architecture behavioral of entity schematic_schematic_sch_tb
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 27 VHDL Units
+Built simulation executable C:/VHDL_munka/digit3/digit3/schematic_schematic_sch_tb_isim_beh.exe
+Fuse Memory Usage: 48200 KB
+Fuse CPU Usage: 593 ms

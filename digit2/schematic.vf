@@ -1,0 +1,53 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : schematic.vf
+// /___/   /\     Timestamp : 09/30/2019 20:34:20
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog C:/VHDL_munka/digit2/schematic.vf -w C:/VHDL_munka/digit2/schematic.sch
+//Design Name: schematic
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module schematic(a, 
+                 b, 
+                 c, 
+                 y);
+
+    input a;
+    input b;
+    input c;
+   output y;
+   
+   wire XLXN_3;
+   wire XLXN_4;
+   wire XLXN_8;
+   wire XLXN_9;
+   
+   OR2  XLXI_2 (.I0(XLXN_4), 
+               .I1(XLXN_3), 
+               .O(XLXN_8));
+   OR2  XLXI_3 (.I0(XLXN_9), 
+               .I1(XLXN_8), 
+               .O(y));
+   AND2  XLXI_4 (.I0(b), 
+                .I1(a), 
+                .O(XLXN_3));
+   AND2  XLXI_5 (.I0(c), 
+                .I1(a), 
+                .O(XLXN_4));
+   AND2  XLXI_6 (.I0(c), 
+                .I1(b), 
+                .O(XLXN_9));
+endmodule

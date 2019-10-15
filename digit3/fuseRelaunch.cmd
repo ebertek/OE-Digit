@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/VHDL_munka/digit3/digit3/schematic_schematic_sch_tb_isim_beh.exe" -prj "C:/VHDL_munka/digit3/digit3/schematic_schematic_sch_tb_beh.prj" "work.schematic_schematic_sch_tb" 
